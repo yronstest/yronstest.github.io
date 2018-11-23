@@ -1,0 +1,229 @@
+<!doctype html>
+<html>
+<head>
+  <title>YRoNS | Gallery</title>
+  <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="theme-color" content="#363636">
+  
+    
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
+ 
+    <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
+  <link href="./img/logo1.png" rel="icon" type="icon/png">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="style2.css">
+
+</head>
+
+
+
+<body>
+  
+
+  <div class="hero-head">
+    <nav class="navbar is-light is-fixed-top">
+      <div class="container">
+        <div class="navbar-brand">
+          <a class="navbar-item">
+            <img src="./img/logo1.png" alt="Logo">
+          </a>
+
+          <span class="navbar-burger burger" data-target="navbarMenuHeroB" style="color: hsl(141,71%,48%); ">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+        </div>
+        
+        <div id="navbarMenuHeroB" class="navbar-menu" style="background: hsl(0,0%,96%);">
+          <div class="navbar-end">
+
+             <span class="navbar-item">
+             <a  href="index.html">
+                <span class="icon">
+                  <i class="fas fa-home"></i>
+                </span>
+                <span>Home</span>
+              </a></span>
+
+                <span class="navbar-item">
+                <span class="icon">
+                  <i class="fas fa-images"></i>
+                </span>
+                <span>Gallery</span>
+              </span>
+
+
+               <span class="navbar-item">
+            <a class="button is-light is-inverted" href="#" target="_blank">
+                <span class="icon">
+                  <i class="fas fa-sign-in-alt"></i>
+                </span>
+                <span>Join Us!</span>
+              </a></span>
+
+           
+             
+            </span>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+<section class="hero  is-bold is-fullheight is-white">
+  <div class="hero-body">
+    <div class="container has-text-centered">
+      <div data-aos="zoom-in" data-aos-duration="3000">
+        <center>
+  
+</center>
+  <h1 class="title" style="font-size: 45px;">   <div data-aos="flip-up" data-aos-duration="5400">
+
+    Gallery
+      </h1>
+      <img src="./img/logo1.png" style="width: 200px; height: 200px;">
+      <h2 class="subtitle" id="content" style="font-size: 15px; margin-top:6px; color: orange" ><div data-aos="fade-up" data-aos-duration="2000">
+      <b> YRoNS 2018 Amsterdam  </h2> <br></b>
+
+
+       
+      
+    </div>
+  </div>
+
+ 
+  </div>
+
+  
+</section>
+
+ 
+
+ 
+ </section>
+  <section  class="hero is-success">
+
+  <div class="container content has-text-centered" data-aos="fade-up" data-aos-duration="2000">
+  
+      
+      <div class="column">
+       
+   <div class="box">
+      <img src="./img/10.jpg" style=" border-radius: 6px;">
+   <p>YRoNS Cyprus</p></div>
+
+   <div class="box">
+      <img src="./img/11.jpg" style=" border-radius: 6px;">
+   <p>YRoNS Cyprus</p></div>
+
+   <div class="box">
+      <img src="./img/13.jpg" style=" border-radius: 6px;">
+   <p>YRoNS Russia</p></div>
+
+   
+   <div class="box">
+      <img src="./img/14.jpg" style=" border-radius: 6px;">
+   <p>YRoNS Russia</p></div>
+
+   <div class="box">
+      <img src="./img/9.jpg" style=" border-radius: 6px;">
+   <p>Amity Delegation Russia</p></div>
+
+   <div class="box">
+      <img src="./img/16.png" style=" border-radius: 6px;">
+   <p>YRoNS Slovenia</p></div>
+
+   <div class="box">
+      <img src="./img/17.jpg" style=" border-radius: 6px;">
+   <p>YRoNS Norway</p></div>
+
+   <div class="box">
+      <img src="./img/19.jpg" style=" border-radius: 6px;">
+   <p>YRoNS Dubai</p></div>
+
+   <div class="box">
+      <img src="./img/18.jpg" style=" border-radius: 6px;">
+   <p>YRoNS Dubai</p></div>
+
+</section>
+
+
+ 
+     
+
+
+      
+ 
+
+ 
+<footer class="footer has-background-white has-text-dark" style="margin: 0px;">
+  
+
+            <div class="container">
+    <div class="content has-text-centered">
+
+
+<div style="margin: 2px;">
+
+
+      <p>
+        &copy 2018 <b>YRoNS</b></a>
+      </p>
+</div>
+
+ </footer>
+   
+       
+    
+ 
+
+
+
+
+
+
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+
+<script type="text/javascript">(function() {
+  var burger = document.querySelector('.burger');
+  var nav = document.querySelector('#'+burger.dataset.target);
+ 
+  burger.addEventListener('click', function(){
+    burger.classList.toggle('is-active');
+    nav.classList.toggle('is-active');
+  });
+})();</script>
+
+<script type="text/javascript">$(document).ready(function(){
+  $("a").on('click', function(event) {
+    if (this.hash !== "") {
+      event.preventDefault();
+      var hash = this.hash;
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+        window.location.hash = hash;
+      });
+    }
+  });
+});
+</script>
+
+</body>
+
+
+
+
+
+
+
+
+

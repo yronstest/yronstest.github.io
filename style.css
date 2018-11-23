@@ -1,0 +1,28 @@
+
+
+}
+ nav.navbar{
+ 	
+ 	box-shadow: 0 18px 14px 0 rgba(0, 0, 0, 0.2), 0 20px 24px 0 rgba(0, 0, 0, 0.19); 
+
+ }
+
+b{
+	color: hsl(141,71%,48%);
+}
+.box{
+	background: hsl(0,0%,8%);
+	box-shadow: 0 18px 14px 0 rgba(0, 0, 0, 0.2), 0 20px 24px 0 rgba(0, 0, 0, 0.19); 
+
+
+}
+
+.box img{
+	border: solid 8px white;
+	border-radius: 3px; 
+}
+
+a{
+	color: hsl(141,71%,48%);
+}
+
